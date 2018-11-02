@@ -42,11 +42,8 @@
         const menu2 = new SidebarMenu('green', 'right');
         const button = new ClickableButton(
             'Kliknij mnie',
-            () => menu2.toggleMenu()
+            menu2.toggleMenu.bind(menu2)
         )
-
-        menu2.toggleMenu()
-        menu2.toggleMenu()
     </script>
 </body>
 
