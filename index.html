@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<!-- 
+    <!-- 
     <style>
         .sidebar-menu {
             position: fixed;
@@ -34,7 +34,12 @@
 
     <div class="sidebar-menu"></div> -->
 
-    <script src="script1.js"></script>
+    <script src="sidebarMenu.js"></script>
+    <script>
+        const menu1 = new SidebarMenu();
+        const menu2 = new SidebarMenu('green', 'right');
+        menu2.toggleMenu()
+        menu2.toggleMenu()</script>
 </body>
 
 </html>

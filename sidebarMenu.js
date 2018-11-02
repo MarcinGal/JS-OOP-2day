@@ -42,7 +42,3 @@ SidebarMenu.prototype.toggleMenu = function () {
 }
 
 
-const menu1 = new SidebarMenu();
-const menu2 = new SidebarMenu('green', 'right');
-menu2.toggleMenu()
-menu2.toggleMenu()
