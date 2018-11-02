@@ -13,7 +13,7 @@ SidebarMenu.prototype.init = function () {
     new ClickableButton(
         'Toggle menu',
         this.toggleMenu.bind(this)
-    )
+    );
 }
 
 SidebarMenu.prototype.init = function () {
