@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <style>
+        .sidebar-menu {
+            position: fixed;
+            top:0;
+            width: 200px;
+            height: 100vh;
+            background-color: red;
+        }
+
+        .sidebar-menu--left{
+            left: 0
+        }
+
+        .sidebar-menu--right{
+            right: 0;
+        }
+
+        .sidebar-menu--closed{
+            width: 0;
+        }
+    </style>
+
+    <div class="sidebar-menu"></div>
+
+    <script src="script1.js"></script>
 </body>
+
 </html>
