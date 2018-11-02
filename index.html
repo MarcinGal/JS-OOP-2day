@@ -34,12 +34,20 @@
 
     <div class="sidebar-menu"></div> -->
 
+
+    <script src="ClickableButton.js"></script>
     <script src="sidebarMenu.js"></script>
     <script>
         const menu1 = new SidebarMenu();
         const menu2 = new SidebarMenu('green', 'right');
+        const button = new ClickableButton(
+            'Kliknij mnie',
+            () => alert("juupiiiii!!")
+        )
+
         menu2.toggleMenu()
-        menu2.toggleMenu()</script>
+        menu2.toggleMenu()
+    </script>
 </body>
 
 </html>
